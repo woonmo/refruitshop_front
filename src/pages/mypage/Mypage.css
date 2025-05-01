@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+div.title {
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+	margin-top: 1.5%;
+}
+
+#mypage {
+	text-align: center;
+	margin-top: 3%;
+	
+}
+
+
+#mypage > a {
+	font-family: 'Noto Sans KR', sans-serif;
+	/* font-style: regular; */
+	font-weight: 500;
+	color: #464646;
+	margin: 0 2%;
+	font-size: 14pt;
+	text-decoration: none;
+}
+
+
+div.jumbotron {
+	width: 80%;
+	margin: 0 auto;
+}

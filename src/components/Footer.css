@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+div#footer {
+	background-color: black;
+	color: white;
+	margin-top: 3%;
+}
+
+div#company_info {
+	display: flex;
+}
+
+div#company_info > div {
+	margin: 0 auto;
+}
+
+div#company_info > div:last-child {
+	text-align: right;
+}
+
+div#company_info {
+	
+	width: 95%;
+	/* margin-left: 5%; */
+	margin:0 auto;
+	margin-bottom:2.3%;
+	display: flex;
+}
+
+div#team_info {
+	padding-right: 4%;
+}
+
+div#company_info > div  p {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+	/* font-weight: bold; */
+}
+
+div#company_info > div:last-child > p {
+	font-weight: bold;
+}
+
+p.info:hover {
+	cursor: pointer;
+}

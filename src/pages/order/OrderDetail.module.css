@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+
+.container {
+	border: solid 0.5px #c0c0c0;
+	width: 45%;
+	margin: 0 auto;
+}
+
+
+/* 주문/결제 타이틀 시작 */
+.order_title {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+}
+/* 주문/결제 타이틀 끝 */
+
+/* 주문번호 시작 */
+.orderNumberInfo {
+	border-top: solid 0.5px #c0c0c0;
+	border-bottom: solid 0.5px #c0c0c0;
+	margin-top: 2%;
+	/*width: 70%;*/
+	/*margin: 0 auto;*/
+	background-color: white
+}
+
+.orderNumber div {
+  	color: #555555;
+  	padding: 15px;
+  	text-decoration: none;
+  	font-size: 12pt;
+  	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.orderNumber {
+	width: 100%;
+}
+
+/* 주문번호 끝 */
+
+
+/* 주문상세 정보란 시작 */
+.orderInfo_place {
+	border: solid 0px green;
+	margin-top: 5%;
+}
+.orderInfo_title {
+	margin-left: 1%;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+}
+
+
+/* 배송정보 시작 */
+.shipInfo span {
+	display: block;
+}
+.receiver {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	margin:1.5% 0 1.5% 0;
+}
+.tel {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #555555;
+	margin-bottom: 1.5%;
+}
+.address {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #555555;
+}
+/* 배송정보 끝 */
+
+
+/* 하단 교환, 구매확정 버튼 */
+
+.requestbtn {
+	border:solid 1px gray; 
+	width: 35%;
+}
