@@ -67,12 +67,6 @@ function PasswordChange() {
         }
     };
 
-    // 기존 비밀번호와 같은지 검사
-    // const checkAlreayUsePassword = async () => {
-    //     return new Promise((resolve, reject) => {
-    //         function success
-    //     });
-    // };
 
     // 비밀번호 변경 요청
     const handleSubmit = (e) => {
